@@ -8,7 +8,7 @@ p{
  h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(121, 23, 40);
- }*/
+ }
  #home{
     background-color:aqua;
  }
@@ -16,4 +16,40 @@ p{
     background-color: black;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
+ }*/
+ /* div>p -- for the child of the parent
+ div+p --- applies to the immediate right sibling
+ div~p ---applies to all the right siblings 
+ : --- psuedo class
+ */
+
+ div~p{
+   background-color: Brown;
+   color:white;
+ }
+/* p:hover{
+   font-size: xx-large;
+   background-color: aqua;
+
+ }*/
+ p::after{
+   content:"ABES Engineering College";
+   background-color: coral;
+   color:white;
+ }
+ p::before{
+   content:"We are the student of third year CS B";
+   background-color: brown;
+   color:white;
+ }
+ p::selection{
+   background-color: chartreuse;
+ }
+/* p:nth-child(2){
+   background-color: black;
+   color:white
+ }*/
+ div p:nth-of-type(1){
+   background-color: aqua;
+   font-size:xx-small;
  }
