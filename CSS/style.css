@@ -21,6 +21,7 @@ p{
  div+p --- applies to the immediate right sibling
  div~p ---applies to all the right siblings 
  : --- psuedo class
+ nth-of-type(1): jis jagah bhi uss type ka pehla child hoga vahan apply hoga 
  */
 
  div~p{
@@ -45,10 +46,10 @@ p{
  p::selection{
    background-color: chartreuse;
  }
-/* p:nth-child(2){
+p:nth-child(2){
    background-color: black;
    color:white
- }*/
+ }
  div p:nth-of-type(1){
    background-color: aqua;
    font-size:xx-small;

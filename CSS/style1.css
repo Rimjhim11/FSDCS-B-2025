@@ -1,0 +1,21 @@
+/*body{
+    background-color: aquamarine;
+
+}*/
+.box{
+    height:300px;
+    width:400px;
+    border:1px solid red ;
+    background-color: cadetblue; 
+    margin-top:20px;
+    margin-left: 20px;
+    padding:20px;
+}
+.box1{
+   height:100px;
+    width:200px;
+    border:1px dotted aqua ;
+    background-color: chartreuse;
+    color:white;  
+} 
+
