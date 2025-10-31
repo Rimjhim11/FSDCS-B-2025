@@ -4,11 +4,8 @@
 // div[0].style.backgroundColor="yellow";
 // console.log(div);
 const div = document.getElementsByClassName('container');
-
 // div[0].innerHTML='<h2 style=color:red>Hii,I am using DOM</h2';
 // console.dir(div);
-
-
 const button = document.getElementById('btn');
 console.log(button);
 const loading=document.getElementById('disp');
@@ -29,7 +26,5 @@ function displayData() {
     div[0].appendChild(img);
     loading.innerHTML='';
     },2000);
-
-   
 }
 button.addEventListener('click', displayData);
